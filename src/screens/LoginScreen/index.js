@@ -67,7 +67,7 @@ const LoginScreen = (props) => {
                 setTimeout(() => {
                   props.killed()
                 }, 3000);
-                // NavigateToOtp(props)
+                NavigateToOtp(props)
               }}
             />
           </View>
